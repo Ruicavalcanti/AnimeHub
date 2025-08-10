@@ -17,4 +17,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AnimeHub.CrossCutting\AnimeHub.CrossCutting.csproj" />
+  </ItemGroup>
+
 </Project>
