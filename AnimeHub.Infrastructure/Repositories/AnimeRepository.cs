@@ -73,20 +73,22 @@ namespace AnimeHub.Infrastructure.Repositories
         {
             var query = BuildFilteredQuery(id, nome, diretor);
             var result = await query.ToListAsync();
-
-            if (!result.Any())
-                throw new InvalidOperationException("Nenhum anime encontrado com os critérios informados.");
-
             return result;
-
         }
 
         /// <summary>
         /// Constroi o IQueryable com os filtros opcionais.
         /// </summary>
+        /// <param name="id"></param>
+        /// <param name="nome"></param>
+        /// <param name="diretor"></param>
+        /// <returns></returns>
         private IQueryable<Anime> BuildFilteredQuery(int? id, string? nome, string? diretor)
         {
             var query = _db.Animes.AsQueryable();
+
+            if (!id.HasValue && string.IsNullOrWhiteSpace(nome) && string.IsNullOrWhiteSpace(diretor))
+                return query.Where(a => false);
 
             if (id.HasValue)
                 query = query.Where(a => a.Id == id.Value);
