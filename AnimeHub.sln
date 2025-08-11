@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeHub.Domain", "AnimeHub.Domain\AnimeHub.Domain.csproj", "{52AD5886-6624-40BA-BFDF-ABF183AD003D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeHub.Application", "AnimeHub.Application\AnimeHub.Application.csproj", "{68A2C52B-D8BE-4384-BDA3-98B61BE12119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeHub.CrossCutting", "AnimeHub.CrossCutting\AnimeHub.CrossCutting.csproj", "{E4D97CA8-B076-4276-8CFB-0F6A6C69F4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeHub.Infrastructure", "AnimeHub.Infrastructure\AnimeHub.Infrastructure.csproj", "{9D952EC5-BDE8-4BB8-868A-0AF081EB1651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeHub.API", "AnimeHub.API\AnimeHub.API.csproj", "{451230BB-AAAA-408E-B157-BD583B9A0961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeHub.Tests", "AnimeHub.Tests\AnimeHub.Tests.csproj", "{6F8E56DE-BC62-4317-8356-6D7835CA8677}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52AD5886-6624-40BA-BFDF-ABF183AD003D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52AD5886-6624-40BA-BFDF-ABF183AD003D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52AD5886-6624-40BA-BFDF-ABF183AD003D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52AD5886-6624-40BA-BFDF-ABF183AD003D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A2C52B-D8BE-4384-BDA3-98B61BE12119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A2C52B-D8BE-4384-BDA3-98B61BE12119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A2C52B-D8BE-4384-BDA3-98B61BE12119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A2C52B-D8BE-4384-BDA3-98B61BE12119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D97CA8-B076-4276-8CFB-0F6A6C69F4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D97CA8-B076-4276-8CFB-0F6A6C69F4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D97CA8-B076-4276-8CFB-0F6A6C69F4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D97CA8-B076-4276-8CFB-0F6A6C69F4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D952EC5-BDE8-4BB8-868A-0AF081EB1651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D952EC5-BDE8-4BB8-868A-0AF081EB1651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D952EC5-BDE8-4BB8-868A-0AF081EB1651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D952EC5-BDE8-4BB8-868A-0AF081EB1651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451230BB-AAAA-408E-B157-BD583B9A0961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451230BB-AAAA-408E-B157-BD583B9A0961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451230BB-AAAA-408E-B157-BD583B9A0961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451230BB-AAAA-408E-B157-BD583B9A0961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8E56DE-BC62-4317-8356-6D7835CA8677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8E56DE-BC62-4317-8356-6D7835CA8677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8E56DE-BC62-4317-8356-6D7835CA8677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8E56DE-BC62-4317-8356-6D7835CA8677}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98A4B554-6E62-4715-83FE-48A461E06D06}
+	EndGlobalSection
+EndGlobal
