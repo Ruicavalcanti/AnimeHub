@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  animehub-api:
+    image: animehub_animehub-api
+    container_name: animehub-api
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      # Atenção: conexão com o banco deve apontar para algum SQL Server acessível
+      - ConnectionStrings__DefaultConnection=Server=localhost,1433;Database=AnimeDb;User Id=sa;Password=AnimeHub123*;TrustServerCertificate=True;
+    networks:
+      - animehub-network
+
+networks:
+  animehub-network:
+    driver: bridge
